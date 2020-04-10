@@ -240,7 +240,6 @@ header{
 }
 .modal-dialog{
     margin: auto;
-    min-width: 550px;
     max-width: 780px;
     width: 95%;
     background: #FFFFFF;
@@ -310,6 +309,7 @@ header{
     justify-content: space-between;
 }
 .food-cost{
+    white-space: nowrap;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
@@ -395,6 +395,17 @@ header{
     }
 }
 @media(max-width: 620px){
+    .modal-buttons{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    .food-row{
+        flex-wrap: wrap;
+    }
+    .food-name{
+        flex-basis: 100%;
+    }
     .header{
         flex-wrap: wrap;
     }   
@@ -419,7 +430,12 @@ header{
         width: 100%;
     }
 }
+
 @media(max-width: 480px){
+    .modal .primary-button{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
     .restaurant-heading{
         flex-wrap: wrap;
     }
@@ -441,7 +457,7 @@ header{
     }
 }
 @media(max-width: 368px){
-    .button {
+    header .button {
         font-size: 0;
         width: 50px;
         height: 42px;
