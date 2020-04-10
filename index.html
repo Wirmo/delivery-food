@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Delivery Food - доставка еды на дом</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html" class="logo wow slideInLeft"><img src="img/logo.svg" alt="Delivery Food" class="logo"></a>
+            <input type="search" class="input input-address wow fadeInRight"  data-wow-duration=".5s" placeholder="Адрес доставки">
+        <div class="buttons">
+            <button class="button primary-button wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1s"><img src="img/LogIn.svg" alt="Войти">Войти</button>
+            <button class="button wow fadeInDown" id="cartButton" data-wow-delay=".4s" data-wow-duration="1s"><img src="img/shopping-cart.svg" alt="Корзина">Корзина</button>
+        </div>
+        </header>
+        
+        <section class="promo wow fadeIn">
+            <h1 class="promo-title">Онлайн-сервис <br> доставки еды на дом</h1>
+            <p class="promo-text">Блюда из любимого ресторана привезет <br> курьер в перчатках, маске и с антисептиком</p>
+        </section>
+    </div>
+        <main class="main">
+            <div class="container">
+                <section class="restaurant">
+                    <div class="restaurant-heading">
+                        <h1 class="restaurant-title">Рестораны</h1>
+                        <!-- /.h1 title -->
+                        <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
+                    </div>
+                    <!-- /.heding -->
+                    <div class="cards">
+                        <a href="restaurant.html" class="card wow fadeInUp" data-wow-delay=".0s">
+                            <img src="img/card-image-1.jpg" alt="" class="img">
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <div class="card-title">Пицца плюс</div>
+                                    <div class="card-tag">50 мин</div>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-rating"><img src="img/star.svg" alt=""> 4.5</div>
+                                    <div class="card-price">От 900 ₽</div>
+                                    <div class="card-category">Пицца </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="restaurant.html" class="card wow fadeInUp" data-wow-delay=".2s">
+                            <img src="img/card-image-2.jpg" alt="" class="img">
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <div class="card-title">Тануки</div>
+                                    <div class="card-tag">40 мин</div>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-rating"><img src="img/star.svg" alt=""> 4.5</div>
+                                    <div class="card-price">От 1000 ₽</div>
+                                    <div class="card-category">Суши </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="restaurant.html" class="card wow fadeInUp" data-wow-delay=".4s">
+                            <img src="img/card-image-3.jpg" alt="" class="img">
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <div class="card-title">FoodBand</div>
+                                    <div class="card-tag">75 мин</div>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-rating"><img src="img/star.svg" alt=""> 4.5</div>
+                                    <div class="card-price">От 1900 ₽</div>
+                                    <div class="card-category">Барбекю </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="restaurant.html" class="card wow fadeInUp" data-wow-delay=".0s">
+                            <img src="img/card-image-4.jpg" alt="" class="img">
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <div class="card-title">Жадина-пицца</div>
+                                    <div class="card-tag">10 мин</div>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-rating"><img src="img/star.svg" alt=""> 4.5</div>
+                                    <div class="card-price">От 200 ₽</div>
+                                    <div class="card-category">Русская кухня </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="restaurant.html" class="card wow fadeInUp" data-wow-delay=".2s">
+                            <img src="img/card-image-5.jpg" alt="" class="img">
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <div class="card-title">Точка еды</div>
+                                    <div class="card-tag">60 мин</div>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-rating"><img src="img/star.svg" alt=""> 4.5</div>
+                                    <div class="card-price">От 950 ₽</div>
+                                    <div class="card-category">Пицца </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="restaurant.html" class="card wow fadeInUp" data-wow-delay=".4s">
+                            <img src="img/card-image-6.jpg" alt="" class="img">
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <div class="card-title">PizzaBurger</div>
+                                    <div class="card-tag">120 мин</div>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-rating"><img src="img/star.svg" alt=""> 4.5</div>
+                                    <div class="card-price">От 2300 ₽</div>
+                                    <div class="card-category">Пицца </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <!-- /.restaurant -->
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-block">
+                    <a href="index.html" class="logo"><img src="img/logo.svg" alt="Delivery Food" class="logo footer-logo"></a>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">Ресторанам </a>
+                    <a href="#" class="footer-link">Курьерам</a>
+                    <a href="#" class="footer-link">Пресс-центр</a>
+                    <a href="#" class="footer-link">Контакты</a>
+                </nav>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><img src="img/inst.png" alt="instagram" class=""></a>
+                    <a href="#" class="social-link"><img src="img/fb.svg" alt="facebook" class=""></a>
+                    <a href="#" class="social-link"><img src="img/vk.svg" alt="vk" class=""></a>
+                </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal">
+            <div class="modal-dialog">
+                <div class="modal-heading">
+                    <span class="modal-title">Корзина</span>
+                    <button class="button close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="food-row">
+                        <span class="food-name">Ролл угорь стандарт</span>
+                        <strong class="food-price">250 ₽</strong>
+                        <div class="counter-block">
+                            <button class="button counter-button">-</button>
+                            <span class="counter">1</span>
+                            <button class="button counter-button">+</button>
+                        </div>
+                    </div>
+                    <div class="food-row">
+                        <span class="food-name">Ролл угорь стандарт</span>
+                        <strong class="food-price">250 ₽</strong>
+                        <div class="counter-block">
+                            <button class="button counter-button">-</button>
+                            <span class="counter">1</span>
+                            <button class="button counter-button">+</button>
+                        </div>
+                    </div>
+                    <div class="food-row">
+                        <span class="food-name">Ролл угорь стандарт</span>
+                        <strong class="food-price">250 ₽</strong>
+                        <div class="counter-block">
+                            <button class="button counter-button">-</button>
+                            <span class="counter">1</span>
+                            <button class="button counter-button">+</button>
+                        </div>
+                    </div>
+                    <div class="food-row">
+                        <span class="food-name">Ролл угорь стандарт</span>
+                        <strong class="food-price">250 ₽</strong>
+                        <div class="counter-block">
+                            <button class="button counter-button">-</button>
+                            <span class="counter">1</span>
+                            <button class="button counter-button">+</button>
+                        </div>
+                    </div>
+                    <div class="food-row">
+                        <span class="food-name">Ролл угорь стандарт</span>
+                        <strong class="food-price">250 ₽</strong>
+                        <div class="counter-block">
+                            <button class="button counter-button">-</button>
+                            <span class="counter">1</span>
+                            <button class="button counter-button">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <span class="food-cost">1250 ₽</span>
+                    <div class="modal-buttons">
+                        <button class="button primary-button">Оформить заказ</button>
+                        <button class="button">Отмена</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
