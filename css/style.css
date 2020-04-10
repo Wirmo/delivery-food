@@ -240,6 +240,7 @@ header{
 }
 .modal-dialog{
     margin: auto;
+    min-width: 550px;
     max-width: 780px;
     width: 95%;
     background: #FFFFFF;
@@ -416,9 +417,6 @@ header{
     }
     .card .img{
         width: 100%;
-    }
-    .card-rating{
-        flex-basis: 15%;
     }
 }
 @media(max-width: 480px){
